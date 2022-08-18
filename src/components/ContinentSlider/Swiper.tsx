@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/lazy';
 
-import continents from './continent-data.json';
+import continents from '../../data/continent-data.json';
 
 export default function Swiper() {
   return (

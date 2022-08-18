@@ -1,7 +1,7 @@
 import { Flex } from '@chakra-ui/react';
 import CategoryItem from './CategoryItem';
 
-import categories from './categories.json';
+import categories from '../../data/categories.json';
 
 export default function Categories() {
   return (
