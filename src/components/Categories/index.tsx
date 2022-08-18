@@ -8,12 +8,11 @@ export default function Categories() {
     <Flex
       as="section"
       w="100%"
-      maxWidth={1440}
-      h="100px"
+      maxWidth={1160}
       alignItems="center"
       justifyContent="space-around"
       mx="auto"
-      py={160}
+      pt={114}
     >
       {categories.map(category => (
         <CategoryItem key={category.path} category={category} />

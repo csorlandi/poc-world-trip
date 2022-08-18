@@ -8,7 +8,7 @@ export default function Divider() {
       borderColor="gray.700"
       rounded="full"
       alignSelf="center"
-      mb={52}
+      my={14}
       mx="auto"
     />
   );
