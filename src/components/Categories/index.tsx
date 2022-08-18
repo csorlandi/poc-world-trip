@@ -16,7 +16,7 @@ export default function Categories() {
       py={160}
     >
       {categories.map(category => (
-        <CategoryItem category={category} />
+        <CategoryItem key={category.path} category={category} />
       ))}
     </Flex>
   );
