@@ -13,8 +13,7 @@ export default function Categories() {
       alignItems="center"
       justifyContent="space-around"
       mx="auto"
-      pt={160}
-      pb={160}
+      py={160}
     >
       {categories.map(category => (
         <CategoryItem category={category} />
