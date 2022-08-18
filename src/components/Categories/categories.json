@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/categories/night-life",
+    "icon": "/images/home/categories/cocktail.svg",
+    "iconAlt": "Imagem de um copo de coquetel",
+    "label": "vida noturna"
+  },
+  {
+    "path": "/categories/beach",
+    "icon": "/images/home/categories/surf.svg",
+    "iconAlt": "Imagem de uma prancha de surfe",
+    "label": "praia"
+  },
+  {
+    "path": "/categories/modern",
+    "icon": "/images/home/categories/building.svg",
+    "iconAlt": "Imagem de um prédio",
+    "label": "moderno"
+  },
+  {
+    "path": "/categories/classic",
+    "icon": "/images/home/categories/museum.svg",
+    "iconAlt": "Imagem do edifício de um museu",
+    "label": "clássico"
+  },
+  {
+    "path": "/categories/more",
+    "icon": "/images/home/categories/earth.svg",
+    "iconAlt": "Imagem de um globo terrestre",
+    "label": "e mais..."
+  }
+]
