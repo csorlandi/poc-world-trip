@@ -1,9 +1,9 @@
 import { Flex } from '@chakra-ui/react';
 import CategoryItem from './CategoryItem';
 
-import categories from '../../data/categories.json';
+import categories from '../../../data/categories.json';
 
-export default function Categories() {
+export function Categories() {
   return (
     <Flex
       as="section"

@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
-import Categories from '../components/Categories';
-import ContinentSlider from '../components/ContinentSlider';
-import Divider from '../components/Divider';
 import { Header } from '../components/Header';
-import { Hero } from '../components/Hero';
+import { Hero } from '../components/Home/Hero';
+import { Categories } from '../components/Home/Categories';
+import { Divider } from '../components/Home/Divider';
+import { ContinentSlider } from '../components/Home/ContinentSlider';
 
 const Home: NextPage = () => {
   return (

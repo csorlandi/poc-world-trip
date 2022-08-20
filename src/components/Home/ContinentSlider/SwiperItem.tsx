@@ -1,19 +1,13 @@
 import { Flex, Link as ChakraLink, Text } from '@chakra-ui/react';
 import Link from 'next/link';
-
-type Continent = {
-  name: string;
-  description: string;
-  path: string;
-  image: string;
-};
+import { Continent } from '../../types/continent';
 
 type SwiperItemProps = {
-  continent: Continent;
+  continent: Pick<Continent, 'name' | 'cta' | 'path' | 'slideImage'>;
 };
 
 export default function SwiperItem({
-  continent: { name, description, path, image },
+  continent: { name, cta, path, slideImage },
 }: SwiperItemProps) {
   return (
     <Link href={path} passHref>
@@ -21,7 +15,7 @@ export default function SwiperItem({
         <Flex
           direction="column"
           minH={450}
-          backgroundImage={`url(${image})`}
+          backgroundImage={`url(${slideImage})`}
           backgroundRepeat="no-repeat"
           backgroundPosition="center"
           backgroundSize="cover"
@@ -32,7 +26,7 @@ export default function SwiperItem({
             {name}
           </Text>
           <Text color="white" fontWeight="600" fontSize={24} mt={4}>
-            {description}
+            {cta}
           </Text>
         </Flex>
       </ChakraLink>

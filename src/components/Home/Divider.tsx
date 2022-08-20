@@ -1,6 +1,6 @@
 import { Divider as ChakraDivider } from '@chakra-ui/react';
 
-export default function Divider() {
+export function Divider() {
   return (
     <ChakraDivider
       w={90}

@@ -1,7 +1,7 @@
 import { Box, Flex, Heading } from '@chakra-ui/react';
 import Swiper from './Swiper';
 
-export default function ContinentSlider() {
+export function ContinentSlider() {
   return (
     <Flex
       as="section"
