@@ -21,7 +21,7 @@ export default function Swiper() {
       modules={[Navigation, Pagination, Lazy]}
     >
       {continents.map(continent => (
-        <SwiperSlide>
+        <SwiperSlide key={continent.slug}>
           <SwiperItem continent={continent} />
         </SwiperSlide>
       ))}

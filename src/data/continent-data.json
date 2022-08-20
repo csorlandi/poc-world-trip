@@ -1,35 +1,41 @@
 [
   {
+    "slug": "north-america",
     "name": "América do Norte",
     "description": "As cidades mais visitadas",
     "path": "/details/north-america",
     "image": "/images/home/continents/europe.png"
   },
   {
+    "slug": "south-america",
     "name": "América do Sul",
     "description": "O mais rico em biodiversidade",
     "path": "/details/south-america",
     "image": "/images/home/continents/europe.png"
   },
   {
+    "slug": "asia",
     "name": "Ásia",
     "description": "O maior dos continentes",
     "path": "/details/asia",
     "image": "/images/home/continents/europe.png"
   },
   {
+    "slug": "africa",
     "name": "África",
     "description": "A maior diversidade de etnias",
     "path": "/details/africa",
     "image": "/images/home/continents/europe.png"
   },
   {
+    "slug": "europe",
     "name": "Europa",
     "description": "O continente mais antigo",
     "path": "/details/europe",
     "image": "/images/home/continents/europe.png"
   },
   {
+    "slug": "oceania",
     "name": "Oceania",
     "description": "O menor dos continente",
     "path": "/details/oceania",
