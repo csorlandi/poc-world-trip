@@ -2,43 +2,385 @@
   {
     "slug": "north-america",
     "name": "América do Norte",
-    "description": "As cidades mais visitadas",
+    "cta": "As cidades mais visitadas",
     "path": "/details/north-america",
-    "image": "/images/home/continents/europe.png"
+    "slideImage": "/images/home/continents/europe.png",
+    "detailBanner": "/images/home/continents/europe.png",
+    "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+    "statistics": [
+      {
+        "id": "countries",
+        "label": "países",
+        "quantity": 50
+      },
+      {
+        "id": "languages",
+        "label": "línguas",
+        "quantity": 60
+      },
+      {
+        "id": "mostVisitedCities",
+        "label": "cidades +100",
+        "quantity": 27,
+        "tooltipText": "As cidades +100 são as cidades mais visitadas do mundo"
+      }
+    ],
+    "mostVisitedCities": [
+      {
+        "id": "london",
+        "image": "/images/detail/europe/london/backgroundImage.png",
+        "name": "Londres",
+        "country": "Reino Unido",
+        "countryFlag": "/images/detail/europe/london/countryFlag.png"
+      },
+      {
+        "id": "paris",
+        "image": "/images/detail/europe/paris/backgroundImage.png",
+        "name": "Paris",
+        "country": "França",
+        "countryFlag": "/images/detail/europe/paris/countryFlag.png"
+      },
+      {
+        "id": "rome",
+        "image": "/images/detail/europe/rome/backgroundImage.png",
+        "name": "Roma",
+        "country": "Itália",
+        "countryFlag": "/images/detail/europe/rome/countryFlag.png"
+      },
+      {
+        "id": "prague",
+        "image": "/images/detail/europe/prague/backgroundImage.png",
+        "name": "Praga",
+        "country": "República Tcheca",
+        "countryFlag": "/images/detail/europe/prague/countryFlag.png"
+      },
+      {
+        "id": "amsterda",
+        "image": "/images/detail/europe/amsterda/backgroundImage.png",
+        "name": "Amsterdã",
+        "country": "Holanda",
+        "countryFlag": "/images/detail/europe/amsterda/countryFlag.png"
+      }
+    ]
   },
   {
     "slug": "south-america",
     "name": "América do Sul",
-    "description": "O mais rico em biodiversidade",
+    "cta": "O mais rico em biodiversidade",
     "path": "/details/south-america",
-    "image": "/images/home/continents/europe.png"
+    "slideImage": "/images/home/continents/europe.png",
+    "detailBanner": "/images/home/continents/europe.png",
+    "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+    "statistics": [
+      {
+        "id": "countries",
+        "label": "países",
+        "quantity": 50
+      },
+      {
+        "id": "languages",
+        "label": "línguas",
+        "quantity": 60
+      },
+      {
+        "id": "mostVisitedCities",
+        "label": "cidades +100",
+        "quantity": 27,
+        "tooltipText": "As cidades +100 são as cidades mais visitadas do mundo"
+      }
+    ],
+    "mostVisitedCities": [
+      {
+        "id": "london",
+        "image": "/images/detail/europe/london/backgroundImage.png",
+        "name": "Londres",
+        "country": "Reino Unido",
+        "countryFlag": "/images/detail/europe/london/countryFlag.png"
+      },
+      {
+        "id": "paris",
+        "image": "/images/detail/europe/paris/backgroundImage.png",
+        "name": "Paris",
+        "country": "França",
+        "countryFlag": "/images/detail/europe/paris/countryFlag.png"
+      },
+      {
+        "id": "rome",
+        "image": "/images/detail/europe/rome/backgroundImage.png",
+        "name": "Roma",
+        "country": "Itália",
+        "countryFlag": "/images/detail/europe/rome/countryFlag.png"
+      },
+      {
+        "id": "prague",
+        "image": "/images/detail/europe/prague/backgroundImage.png",
+        "name": "Praga",
+        "country": "República Tcheca",
+        "countryFlag": "/images/detail/europe/prague/countryFlag.png"
+      },
+      {
+        "id": "amsterda",
+        "image": "/images/detail/europe/amsterda/backgroundImage.png",
+        "name": "Amsterdã",
+        "country": "Holanda",
+        "countryFlag": "/images/detail/europe/amsterda/countryFlag.png"
+      }
+    ]
   },
   {
     "slug": "asia",
     "name": "Ásia",
-    "description": "O maior dos continentes",
+    "cta": "O maior dos continentes",
     "path": "/details/asia",
-    "image": "/images/home/continents/europe.png"
+    "slideImage": "/images/home/continents/europe.png",
+    "detailBanner": "/images/home/continents/europe.png",
+    "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+    "statistics": [
+      {
+        "id": "countries",
+        "label": "países",
+        "quantity": 50
+      },
+      {
+        "id": "languages",
+        "label": "línguas",
+        "quantity": 60
+      },
+      {
+        "id": "mostVisitedCities",
+        "label": "cidades +100",
+        "quantity": 27,
+        "tooltipText": "As cidades +100 são as cidades mais visitadas do mundo"
+      }
+    ],
+    "mostVisitedCities": [
+      {
+        "id": "london",
+        "image": "/images/detail/europe/london/backgroundImage.png",
+        "name": "Londres",
+        "country": "Reino Unido",
+        "countryFlag": "/images/detail/europe/london/countryFlag.png"
+      },
+      {
+        "id": "paris",
+        "image": "/images/detail/europe/paris/backgroundImage.png",
+        "name": "Paris",
+        "country": "França",
+        "countryFlag": "/images/detail/europe/paris/countryFlag.png"
+      },
+      {
+        "id": "rome",
+        "image": "/images/detail/europe/rome/backgroundImage.png",
+        "name": "Roma",
+        "country": "Itália",
+        "countryFlag": "/images/detail/europe/rome/countryFlag.png"
+      },
+      {
+        "id": "prague",
+        "image": "/images/detail/europe/prague/backgroundImage.png",
+        "name": "Praga",
+        "country": "República Tcheca",
+        "countryFlag": "/images/detail/europe/prague/countryFlag.png"
+      },
+      {
+        "id": "amsterda",
+        "image": "/images/detail/europe/amsterda/backgroundImage.png",
+        "name": "Amsterdã",
+        "country": "Holanda",
+        "countryFlag": "/images/detail/europe/amsterda/countryFlag.png"
+      }
+    ]
   },
   {
     "slug": "africa",
     "name": "África",
-    "description": "A maior diversidade de etnias",
+    "cta": "A maior diversidade de etnias",
     "path": "/details/africa",
-    "image": "/images/home/continents/europe.png"
+    "slideImage": "/images/home/continents/europe.png",
+    "detailBanner": "/images/home/continents/europe.png",
+    "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+    "statistics": [
+      {
+        "id": "countries",
+        "label": "países",
+        "quantity": 50
+      },
+      {
+        "id": "languages",
+        "label": "línguas",
+        "quantity": 60
+      },
+      {
+        "id": "mostVisitedCities",
+        "label": "cidades +100",
+        "quantity": 27,
+        "tooltipText": "As cidades +100 são as cidades mais visitadas do mundo"
+      }
+    ],
+    "mostVisitedCities": [
+      {
+        "id": "london",
+        "image": "/images/detail/europe/london/backgroundImage.png",
+        "name": "Londres",
+        "country": "Reino Unido",
+        "countryFlag": "/images/detail/europe/london/countryFlag.png"
+      },
+      {
+        "id": "paris",
+        "image": "/images/detail/europe/paris/backgroundImage.png",
+        "name": "Paris",
+        "country": "França",
+        "countryFlag": "/images/detail/europe/paris/countryFlag.png"
+      },
+      {
+        "id": "rome",
+        "image": "/images/detail/europe/rome/backgroundImage.png",
+        "name": "Roma",
+        "country": "Itália",
+        "countryFlag": "/images/detail/europe/rome/countryFlag.png"
+      },
+      {
+        "id": "prague",
+        "image": "/images/detail/europe/prague/backgroundImage.png",
+        "name": "Praga",
+        "country": "República Tcheca",
+        "countryFlag": "/images/detail/europe/prague/countryFlag.png"
+      },
+      {
+        "id": "amsterda",
+        "image": "/images/detail/europe/amsterda/backgroundImage.png",
+        "name": "Amsterdã",
+        "country": "Holanda",
+        "countryFlag": "/images/detail/europe/amsterda/countryFlag.png"
+      }
+    ]
   },
   {
     "slug": "europe",
     "name": "Europa",
-    "description": "O continente mais antigo",
+    "cta": "O continente mais antigo",
     "path": "/details/europe",
-    "image": "/images/home/continents/europe.png"
+    "slideImage": "/images/home/continents/europe.png",
+    "detailBanner": "/images/detail/europe.png",
+    "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+    "statistics": [
+      {
+        "id": "countries",
+        "label": "países",
+        "quantity": 50
+      },
+      {
+        "id": "languages",
+        "label": "línguas",
+        "quantity": 60
+      },
+      {
+        "id": "mostVisitedCities",
+        "label": "cidades +100",
+        "quantity": 27,
+        "tooltipText": "As cidades +100 são as cidades mais visitadas do mundo"
+      }
+    ],
+    "mostVisitedCities": [
+      {
+        "id": "london",
+        "image": "/images/detail/europe/london/backgroundImage.png",
+        "name": "Londres",
+        "country": "Reino Unido",
+        "countryFlag": "/images/detail/europe/london/countryFlag.png"
+      },
+      {
+        "id": "paris",
+        "image": "/images/detail/europe/paris/backgroundImage.png",
+        "name": "Paris",
+        "country": "França",
+        "countryFlag": "/images/detail/europe/paris/countryFlag.png"
+      },
+      {
+        "id": "rome",
+        "image": "/images/detail/europe/rome/backgroundImage.png",
+        "name": "Roma",
+        "country": "Itália",
+        "countryFlag": "/images/detail/europe/rome/countryFlag.png"
+      },
+      {
+        "id": "prague",
+        "image": "/images/detail/europe/prague/backgroundImage.png",
+        "name": "Praga",
+        "country": "República Tcheca",
+        "countryFlag": "/images/detail/europe/prague/countryFlag.png"
+      },
+      {
+        "id": "amsterda",
+        "image": "/images/detail/europe/amsterda/backgroundImage.png",
+        "name": "Amsterdã",
+        "country": "Holanda",
+        "countryFlag": "/images/detail/europe/amsterda/countryFlag.png"
+      }
+    ]
   },
   {
     "slug": "oceania",
     "name": "Oceania",
-    "description": "O menor dos continente",
+    "cta": "O menor dos continente",
     "path": "/details/oceania",
-    "image": "/images/home/continents/europe.png"
+    "slideImage": "/images/home/continents/europe.png",
+    "detailBanner": "/images/home/continents/europe.png",
+    "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+    "statistics": [
+      {
+        "id": "countries",
+        "label": "países",
+        "quantity": 50
+      },
+      {
+        "id": "languages",
+        "label": "línguas",
+        "quantity": 60
+      },
+      {
+        "id": "mostVisitedCities",
+        "label": "cidades +100",
+        "quantity": 27,
+        "tooltipText": "As cidades +100 são as cidades mais visitadas do mundo"
+      }
+    ],
+    "mostVisitedCities": [
+      {
+        "id": "london",
+        "image": "/images/detail/europe/london/backgroundImage.png",
+        "name": "Londres",
+        "country": "Reino Unido",
+        "countryFlag": "/images/detail/europe/london/countryFlag.png"
+      },
+      {
+        "id": "paris",
+        "image": "/images/detail/europe/paris/backgroundImage.png",
+        "name": "Paris",
+        "country": "França",
+        "countryFlag": "/images/detail/europe/paris/countryFlag.png"
+      },
+      {
+        "id": "rome",
+        "image": "/images/detail/europe/rome/backgroundImage.png",
+        "name": "Roma",
+        "country": "Itália",
+        "countryFlag": "/images/detail/europe/rome/countryFlag.png"
+      },
+      {
+        "id": "prague",
+        "image": "/images/detail/europe/prague/backgroundImage.png",
+        "name": "Praga",
+        "country": "República Tcheca",
+        "countryFlag": "/images/detail/europe/prague/countryFlag.png"
+      },
+      {
+        "id": "amsterda",
+        "image": "/images/detail/europe/amsterda/backgroundImage.png",
+        "name": "Amsterdã",
+        "country": "Holanda",
+        "countryFlag": "/images/detail/europe/amsterda/countryFlag.png"
+      }
+    ]
   }
 ]
