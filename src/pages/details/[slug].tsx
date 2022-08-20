@@ -1,4 +1,5 @@
 import { GetServerSideProps } from 'next';
+import { Description } from '../../components/ContinentDetail/Description';
 import { Hero } from '../../components/ContinentDetail/Hero';
 import { Header } from '../../components/Header';
 
@@ -14,11 +15,12 @@ type ContinentDetailsProps = {
 };
 
 export default function ContinentDetails({ continent }: ContinentDetailsProps) {
-  const { name, detailBanner } = continent;
+  const { name, detailBanner, description, statistics } = continent;
   return (
     <>
       <Header />
       <Hero backgroundImage={detailBanner} continentName={name} />
+      <Description description={description} statistics={statistics} />
     </>
   );
 }

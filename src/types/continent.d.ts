@@ -1,4 +1,4 @@
-type ContinentStatistics = {
+export type ContinentStatistics = {
   id: string;
   label: string;
   quantity: number;
