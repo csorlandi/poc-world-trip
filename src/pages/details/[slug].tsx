@@ -1,6 +1,7 @@
 import { GetServerSideProps } from 'next';
 import { Description } from '../../components/ContinentDetail/Description';
 import { Hero } from '../../components/ContinentDetail/Hero';
+import { MostVisitedCities } from '../../components/ContinentDetail/MostVisitedCities';
 import { Header } from '../../components/Header';
 
 import continents from '../../data/continent-data.json';
@@ -15,12 +16,14 @@ type ContinentDetailsProps = {
 };
 
 export default function ContinentDetails({ continent }: ContinentDetailsProps) {
-  const { name, detailBanner, description, statistics } = continent;
+  const { name, detailBanner, description, statistics, mostVisitedCities } =
+    continent;
   return (
     <>
       <Header />
       <Hero backgroundImage={detailBanner} continentName={name} />
       <Description description={description} statistics={statistics} />
+      <MostVisitedCities mostVisitedCities={mostVisitedCities} />
     </>
   );
 }

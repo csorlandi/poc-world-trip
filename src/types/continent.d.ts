@@ -5,7 +5,7 @@ export type ContinentStatistics = {
   tooltipText?: string;
 };
 
-type MostVisitedCities = {
+export type MostVisitedCities = {
   id: string;
   image: string;
   name: string;
